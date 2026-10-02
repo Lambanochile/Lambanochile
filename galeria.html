@@ -1,57 +1,9 @@
-<!doctype html>
-<html lang="es">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Galería | LambanoChile.com</title>
-<meta name="description" content="Galería LambanoChile: fotografías, videos, reels y novedades de Jesús Glorificado.">
-<style>
-:root{--blue:#19c8ff;--gold:#f4cf68;--deep:#02070c;--panel:#071827;--white:#f7fbff;--muted:#b7c9d4}
-*{box-sizing:border-box}html{scroll-behavior:smooth}
-body{margin:0;background:radial-gradient(circle at 50% 0%,#123b52 0,#061827 32%,#02070c 72%);color:var(--white);font-family:Arial,Helvetica,sans-serif}
-a{color:inherit}
-nav{position:sticky;top:0;z-index:20;background:rgba(2,8,15,.94);backdrop-filter:blur(10px);display:flex;align-items:center;justify-content:space-between;padding:15px 5%;border-bottom:1px solid #16445d}
-.logo{font-weight:900;font-size:22px}.logo span{color:var(--blue)}
-.navlinks a{text-decoration:none;margin-left:20px;font-size:14px;font-weight:800}.navlinks a:hover{color:var(--blue)}
-.hero{text-align:center;padding:72px 7% 55px}.eyebrow{color:var(--blue);font-size:13px;letter-spacing:3px;font-weight:900}
-h1{font-size:clamp(42px,8vw,78px);margin:10px 0;background:linear-gradient(90deg,#fff,var(--gold),var(--blue),#fff);-webkit-background-clip:text;background-clip:text;color:transparent}
-.hero p{max-width:720px;margin:auto;color:#dbeaf0;font-size:19px}
-.tabs{display:flex;justify-content:center;gap:12px;flex-wrap:wrap;margin:30px auto 55px}.tab{padding:13px 22px;border:1px solid #1a6c8b;border-radius:30px;text-decoration:none;font-weight:900;background:rgba(7,24,39,.7)}.tab:hover{background:#0b3044;border-color:var(--blue)}
-section{padding:30px 6% 70px;max-width:1200px;margin:auto}.section-title{font-size:32px;margin-bottom:8px}.section-note{color:var(--muted);margin-top:0}
-.gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.media{background:linear-gradient(145deg,#0a2435,#030d16);border:1px solid #14506a;border-radius:20px;overflow:hidden;min-height:180px;box-shadow:0 15px 45px rgba(0,0,0,.28)}
-.media img,.media video{width:100%;display:block;aspect-ratio:1/1;object-fit:cover}.caption{padding:15px 17px;font-weight:800}.caption small{display:block;color:var(--muted);font-weight:400;margin-top:4px}
-.empty{padding:50px 25px;text-align:center;color:var(--muted)}
-.book-teaser{margin:30px 0 10px;padding:38px;border-radius:26px;border:1px solid rgba(244,207,104,.5);background:radial-gradient(circle at 90% 10%,rgba(25,200,255,.18),transparent 35%),linear-gradient(145deg,#102b3b,#07131d);position:relative;overflow:hidden}
-.book-teaser h2{font-size:clamp(30px,5vw,48px);margin:8px 0}.book-teaser strong{color:var(--gold)}.book-teaser p{max-width:760px;color:#e0edf2;font-size:18px}
-.badge{display:inline-block;color:#061018;background:var(--gold);padding:7px 12px;border-radius:20px;font-weight:900;font-size:12px;letter-spacing:1px}
-.cta{display:inline-block;margin-top:12px;background:var(--blue);color:#001018;padding:15px 23px;border-radius:30px;text-decoration:none;font-weight:900}
-footer{padding:35px 7%;border-top:1px solid #123449;color:#a9c1ce}
-@media(max-width:780px){.navlinks{display:none}.hero{padding:55px 6% 35px}.gallery{grid-template-columns:1fr 1fr}.media .caption{font-size:14px}}
-@media(max-width:480px){.gallery{grid-template-columns:1fr}}
-</style>
-</head>
-<body>
-<nav>
-<div class="logo">LAMBANO<span>CHILE</span>.COM</div>
-<div class="navlinks">
-<a href="index.html">Inicio</a><a href="index.html#jesus">Jesús Glorificado</a><a href="index.html#libro">Libro</a><a href="galeria.html">Galería</a><a href="index.html#contacto">Contacto</a>
-</div>
-</nav>
-<header class="hero">
-<div class="eyebrow">LAMBANOCHILE · EXPERIENCIA VISUAL</div>
-<h1>Galería</h1>
-<p>Un espacio para compartir imágenes, videos y reels que forman parte del camino de LambanoChile.</p>
-<div class="tabs"><a class="tab" href="#fotos">📸 Fotografías</a><a class="tab" href="#videos">🎬 Videos</a><a class="tab" href="#reels">🔥 Reels</a><a class="tab" href="#segundo-libro">📖 Próximo libro</a></div>
-</header>
-<section id="fotos"><h2 class="section-title">📸 Fotografías</h2><p class="section-note">Aquí iremos incorporando las fotografías de LambanoChile.</p>
-<div class="gallery">
-<article class="media"><div class="empty">Añade tu primera fotografía<br>en <strong>galeria/fotos/</strong></div><div class="caption">LambanoChile<small>Próximamente</small></div></article>
-<article class="media"><div class="empty">Añade otra fotografía<br>en <strong>galeria/fotos/</strong></div><div class="caption">Jesús Glorificado<small>Próximamente</small></div></article>
-<article class="media"><div class="empty">Añade otra fotografía<br>en <strong>galeria/fotos/</strong></div><div class="caption">El futuro es hoy<small>Próximamente</small></div></article>
-</div></section>
-<section id="videos"><h2 class="section-title">🎬 Videos</h2><p class="section-note">Podemos incorporar videos propios de LambanoChile en esta sección.</p><div class="gallery"><article class="media"><div class="empty">Tu próximo video irá aquí.</div><div class="caption">Video LambanoChile</div></article></div></section>
-<section id="reels"><h2 class="section-title">🔥 Reels</h2><p class="section-note">Una sección preparada para tus próximos reels y piezas cortas.</p><div class="gallery"><article class="media"><div class="empty">Tu próximo Reel irá aquí.</div><div class="caption">Reel LambanoChile</div></article></div></section>
-<section id="segundo-libro"><div class="book-teaser"><span class="badge">PRÓXIMAMENTE · SEGUNDO LIBRO</span><h2>El Padre que habita en <strong>nosotros</strong></h2><p>Un nuevo proyecto editorial de LambanoChile para profundizar en la búsqueda interior y en la comprensión del Padre que Jesús Glorificado revela.</p><a class="cta" href="index.html#contacto">QUIERO CONOCER MÁS</a></div></section>
-<footer id="contacto"><strong>LAMBANOCHILE.COM</strong><br>El Reino de los cielos está en ti.</footer>
-</body>
-</html>
+1.png
+2.png
+3.png
+4.png
+5.png
+6.jpg
+7.jpg
+8.png
+9.png
